@@ -10,7 +10,7 @@
 // Prompt 
 // Math random * 5
 // Funzione
-// +
+// + ===
 // if 
 // const 
 
@@ -38,14 +38,14 @@ function genereteRandomNumber(min, max) {
 }
 
 function pariOdispari(numero) {
-    if (numero % 2 == 0) {
+    if (numero % 2 === 0) {
         return true
         
     }   return false
           
 }
 
-if (pariOdispari(userNumber + randomNumber) == 0) {
+if (pariOdispari(userNumber + randomNumber) === 0) {
     console.log(`Hai vinto`);
     
 }else{
