@@ -5,3 +5,8 @@
 
 
 // STRUMENTI
+
+// prompt
+// funzione
+// modulo % 
+// if
