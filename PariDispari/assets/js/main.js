@@ -17,7 +17,7 @@
 
 // chiedimao all'utente discelgiere tra pari e dispari 
 
-const choice = prompt(`Scelgi pari o dispari`);
+const choice = prompt(`Scegli pari o dispari`);
 console.log(choice);
 
 // chiediamo all'utente di scegliere un numero da 1 a 5 
@@ -38,11 +38,18 @@ function genereteRandomNumber(min, max) {
 }
 
 function pariOdispari(numero) {
-    if (randomNumber + userNumber % 2 == 0) {
+    if (numero % 2 == 0) {
         return true
         
-    } return false
+    }   return false
           
+}
+
+if (pariOdispari(userNumber + randomNumber) == 0) {
+    console.log(`Hai vinto`);
+    
+}else{
+    console.log(`Hai perso`);
 }
 
 
