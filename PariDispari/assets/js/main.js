@@ -32,5 +32,10 @@ function genereteRandomNumber(min, max) {
 }
 
 // ciclo for 
+for (let i = 0; i < 5; i++) {
+    const randomNumber = genereteRandomNumber(1, 5);
+    console.log(randomNumber);
+    
+}
 
 
