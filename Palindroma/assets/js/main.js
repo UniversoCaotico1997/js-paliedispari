@@ -8,12 +8,29 @@
 
 // prompt
 // funzione
-// modulo % 
+// modulo ===
 // if
 
 //Chiediamo all'utente di scrivere una parola
 
-const parola = prompt(`Scrivi una parola`);
-console.log(parola);
+const word = prompt(`Scrivi una parola`);
+console.log(word);
+
+
+// scomponiamo la parola in un Array  
+
+const wordBrokenDown = word.split(``)
+console.log(wordBrokenDown);
+
+// Invertiamo il nostro Array 
+
+
+// Creiamo una funzione 
+
+function palindroma(check) {
+    
+
+    
+}
 
 
