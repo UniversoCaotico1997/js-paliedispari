@@ -13,17 +13,23 @@
 // +
 // if 
 // const 
-// ciclo for 
+
 
 // chiedimao all'utente discelgiere tra pari e dispari 
 
-const pariOdispari = prompt(`Scelgi pari o dispari`);
-console.log(pariOdispari);
+const choice = prompt(`Scelgi pari o dispari`);
+console.log(choice);
 
 // chiediamo all'utente di scegliere un numero da 1 a 5 
 
 const userNumber = Number(prompt(`Scegli da 1 a 5`))
 console.log(userNumber);
+
+// variabile con i numeri random generati dal computer 
+const randomNumber = genereteRandomNumber(1, 5);
+
+// somma dei numeri 
+
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 function genereteRandomNumber(min, max) {
@@ -31,11 +37,24 @@ function genereteRandomNumber(min, max) {
     
 }
 
-// ciclo for 
-for (let i = 0; i < 5; i++) {
-    const randomNumber = genereteRandomNumber(1, 5);
-    console.log(randomNumber);
-    
+function pariOdispari(numero) {
+    if (randomNumber + userNumber % 2 == 0) {
+        return true
+        
+    } return false
+          
 }
+
+
+
+
+
+
+// // ciclo for 
+// for (let i = 0; i < 5; i++) {
+//     const randomNumber = genereteRandomNumber(1, 5);
+//     console.log(randomNumber);
+    
+// }
 
 
