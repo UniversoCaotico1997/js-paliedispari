@@ -19,15 +19,23 @@ console.log(word);
 
 // scomponiamo la parola in un Array  
 
-const wordBrokenDown = word.split(``)
+let wordBrokenDown = word.split(``);
 console.log(wordBrokenDown);
 
 // Invertiamo il nostro Array 
 
+let = wordBrokenDown.reverse();
+console.log(wordBrokenDown);
+
+// Ricomponimao la parola 
+
+const invertedWord = wordBrokenDown.join(``);
+console.log(invertedWord);
 
 // Creiamo una funzione 
 
 function palindroma(check) {
+    
     
 
     
