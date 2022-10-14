@@ -27,7 +27,7 @@ console.log(userNumber);
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 function genereteRandomNumber(min, max) {
-    return Math.floor(Math.random() * (min - max)) + min;
+    return Math.floor(Math.random() * (max - min)) + min;
     
 }
 
