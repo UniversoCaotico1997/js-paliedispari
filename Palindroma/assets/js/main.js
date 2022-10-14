@@ -10,3 +10,10 @@
 // funzione
 // modulo % 
 // if
+
+//Chiediamo all'utente di scrivere una parola
+
+const parola = prompt(`Scrivi una parola`);
+console.log(parola);
+
+
